@@ -7,6 +7,8 @@
 <a href="https://github.com/Rominaru/industry-class/issues"><img src="https://img.shields.io/github/issues/Rominaru/industry-class" alt="Issues Badge"/></a>
 <a href="https://github.com/Rominaru/industry-class/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rominaru/industry-class?color=2b9348"></a>
 </div>
+<p align="center" href="https://github.com/Rominaru/Simple-View-Counter">
+    <img src="https://api.visitorbadge.io/api/VisitorHit?user=Rominaru&repo=industry-class&countColor=%237B1E7A" </p>
 <br>
 <p align="center"><i>Loved the project? Please visit our <a href="https://bit.ly/RominaruDev">Website Portfolio</a></i></p>
 <br>
