@@ -1,5 +1,5 @@
 ```javascript
-whimsical adalah salah satu web application pembuat flowchart yang cukup terkenal, dengan menggunakan whisical kamu bisa membuat berbagai macam flowchart ahkan hingga membuat wireframe.
+whimsical adalah salah satu web application pembuat flowchart yang cukup terkenal, dengan menggunakan whisical kamu bisa membuat berbagai macam flowchart bahkan hingga membuat wireframe.
 
 whimsical menyediakan 4 free board yang bisa kamu manfaatkan untuk membuat berbagai flowchart.
 
