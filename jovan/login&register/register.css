@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://wallpaper.dog/large/20501835.jpg");
+  background-size: cover;
+}
+
+.kotak {
+  width: 25%;
+  margin: auto;
+  padding: 4%;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10%;
+  margin-top: 12%;
+  justify-content: center;
+  text-align: center;
+}
+.kotak .btn {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 100%;
+  background-color: #002e94;
+}
+
+#password {
+  margin-top: 2%;
+}
+
+#username {
+  margin-top: 2%;
+}
+.input-group-text {
+  justify-content: center;
+  width: 13%;
+}
+.registerwith {
+  display: inline-flex;
+  width: 100%;
+}
+.google {
+  background-color: #4285f4;
+  color: white;
+  padding: 2%;
+  width: 100%;
+  margin: auto;
+  margin-right: 10%;
+}
+#gugel {
+  margin-right: 1%;
+}
+.google:hover {
+  background-color: #3d68af;
+  transition: 0.2s all ease-out;
+}
+.twitter {
+  background-color: #2146c7;
+  color: white;
+  padding: 2%;
+  width: 100%;
+  margin: auto;
+}
+#titer {
+  margin-right: 1%;
+}
+.twitter:hover {
+  background-color: #1a3184;
+  transition: 0.2s all ease-out;
+}

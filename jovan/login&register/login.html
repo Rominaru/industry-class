@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  </head>
+  <body>
+    <form name="myLogin" class="kotak" onsubmit="return validateForm()" required>
+      <h1>Login Page</h1>
+      <br />
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user"></i></span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" name="fname" />
+      </div>
+      <div class="input-group flex-nowrap" id="password">
+        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock"></i></span>
+        <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping" name="fpasswd" />
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+      <div class="loginwith">
+        <div class="google">
+          <i class="fa fa-google" id="gugel"></i>
+          Google
+        </div>
+        <div class="twitter">
+          <i class="fa fa-twitter" id="titer"></i>
+          Twitter
+        </div>
+      </div>
+      <br /><br />
+      <h6>Don't have account? <a href="register.html">Create one!</a></h6>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
