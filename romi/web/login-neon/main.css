@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito=Sans:wght@200&display=swap');
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #131315;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: 85px;
+    left: 0;
+    color: #8f7cec;
+    font-size: 12px;
+}
+
+#submit {
+    padding: 10px 20px;
+    color: #cbbddb;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #8f7cec;
+    margin: auto;
+}
+
+#submit:hover {
+    background: #8f7cec;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec, 0 0 100px #8f7cec;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#register {
+    display: flex;
+    text-decoration: none;
+    color: #cbbddb;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#register a {
+    margin: auto;
+    color: #8f7cec;
+    text-decoration: none;
+}
