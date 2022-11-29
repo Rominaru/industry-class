@@ -1,0 +1,124 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+  .my-life {
+    border: 2px solid #ffffff;
+    margin: auto;
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 10px;
+    box-shadow: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 10px #888888;
+  }
+
+  .my-foto {
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+  }
+    
+    .btn:hover {
+    background-color: #4267B2;
+    font-size: 14px;
+    }
+    a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+    .fa-stack {
+        color: #000000;
+    }
+    .fa-stack:hover {
+        color: #888888;
+        transition: 0.3s all ease;
+    }
+
+    a:hover {
+        color: #888888;
+        transition: 0.3s all ease;
+        font-size: 25px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin-top: 5%;
+        }
+          .my-life {
+            border: 2px solid #ffffff;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 1px solid #000000;
+            background: rgba(255, 255, 255, 0.5);
+            box-shadow: 5px 10px #888888;
+            width: 80%;
+            margin-top: 20%;
+            margin-bottom: 20%;
+          }
+        
+          .my-foto {
+            border-radius: 50%;
+            border: 1px solid #ffffff;
+            margin: auto;
+            margin-top: 15px;
+            width: 90%;
+          }
+          .btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: auto;
+          }
+            
+            .btn:hover {
+            background-color: #4267B2;
+            font-size: 14px;
+            text-align: center;
+            }
+            a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 20px;
+            }
+            .fa-stack {
+                color: #000000;
+            }
+            .fa-stack:hover {
+                color: #888888;
+                transition: 0.3s all ease;
+            }
+        
+            a:hover {
+                color: #888888;
+                transition: 0.3s all ease;
+                font-size: 25px;
+            }
+        }
