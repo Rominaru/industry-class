@@ -1,7 +1,7 @@
 body {
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-top: 5%;
@@ -60,9 +60,11 @@ body {
 
     @media only screen and (max-width: 600px) {
         body {
-            background-size: cover;
+            background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+            height: 100%;
+            background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
             margin-top: 5%;
